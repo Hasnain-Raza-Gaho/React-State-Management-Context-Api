@@ -1,20 +1,13 @@
-import './App.css';
-import React, { useContext } from 'react'
-import Child from './Child'
-import { GlobalProvider } from './Store/GlobalState'
-import User_Render from './User_Render'
+import React from 'react';
+import {MovieProvider} from './MovieContext';
+
 function App() {
 
 
   return (
-    <GlobalProvider >
-      <div className="App">
+    <MovieProvider>
 
-        <Child />
-        <User_Render/>
-
-      </div>
-    </GlobalProvider >
+    </MovieProvider>
   );
 }
 
