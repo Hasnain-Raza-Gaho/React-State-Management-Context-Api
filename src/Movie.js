@@ -1,10 +1,12 @@
-import React from 'react';
+import React  from 'react';
 
-const Movie = ({name,price}) =>{
-    return(
+const Movie = ({name}) => {
+   
+    return (
         <div>
-            <h3>{name}</h3>
-            <p>{price}</p>
+    <h3>{name}</h3>
         </div>
     )
 }
+
+export default Movie
