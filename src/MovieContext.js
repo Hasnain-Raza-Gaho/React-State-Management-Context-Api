@@ -4,7 +4,7 @@ export const MovieContext = createContext()
 
 export const MovieProvider = (props)=> {
     
-
+console.log(<MovieContext/>)
   return (
       <MovieContext.Provider>
           {props.children}
